@@ -121,6 +121,12 @@ summary { cursor: pointer; font-weight: 700; color: var(--gold); }
 .testi blockquote { margin: 0 auto; max-width: 780px; text-align: center; font-family: Georgia, serif; font-size: 1.28rem; font-style: italic; border: 2px solid var(--line); border-radius: 30px; padding: 34px 40px; background: var(--panel); box-shadow: 0 0 50px rgba(143, 233, 240, .12); }
 .testi cite { display: block; margin-top: 16px; font-family: "Segoe UI", sans-serif; font-style: normal; font-size: 1rem; color: var(--gold); letter-spacing: .06em; }
 
+/* justified body text */
+.lead, .way p, .panel p, .treat p, .mini p, .event p, .about p:not(.name):not(.role), .where, .booking p, .quals li {
+  text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto;
+}
+.thanks p, footer, .testi blockquote, .hero p { text-align: inherit; hyphens: none; }
+
 /* booking */
 .booking .grid { display: grid; grid-template-columns: 1fr 1.25fr; gap: 44px; align-items: start; }
 @media (max-width: 800px) { .booking .grid { grid-template-columns: 1fr; } }
