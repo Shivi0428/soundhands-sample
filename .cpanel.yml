@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/soundhan/public_html/
-    - /bin/cp -R index.html style.css book.php thanks.html images $DEPLOYPATH
+    - /bin/cp -R index.html style.css book.php thanks.html images .htaccess $DEPLOYPATH

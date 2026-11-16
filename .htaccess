@@ -1,0 +1,6 @@
+# Send all visitors to https://www.soundhands.co.uk
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/\.well-known/(acme-challenge|cpanel-dcv|pki-validation)/
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.soundhands.co.uk%{REQUEST_URI} [L,R=301]
