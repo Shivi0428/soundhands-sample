@@ -1,7 +1,7 @@
 <?php
 // Sends a booking request to Nina by email. Needs a real mailbox on the domain
 // (create nina@soundhands.co.uk or noreply@soundhands.co.uk in cPanel) so the mail is trusted.
-const TO_EMAIL   = 'nina@soundhands.co.uk';
+const TO_EMAIL   = 'nina@rainbowhands.org.uk';
 const FROM_EMAIL = 'noreply@soundhands.co.uk';
 const SITE_NAME  = 'Sound Hands Therapies';
 
