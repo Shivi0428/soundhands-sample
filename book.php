@@ -61,5 +61,5 @@ if ($ok) {
     header('Location: thanks.html');
 } else {
     http_response_code(500);
-    echo 'Sorry, your request could not be sent. Please text or WhatsApp 07729 393539 instead.';
+    echo 'Sorry, your request could not be sent. Please email nina@soundhands.co.uk instead.';
 }
